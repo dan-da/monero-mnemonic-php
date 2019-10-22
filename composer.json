@@ -1,0 +1,18 @@
+{
+    "name": "dan-da/monero-mnemonic-php",
+    "minimum-stability": "dev",
+    "require": {
+        "ext-mbstring": "*",
+        "php": ">=7.0"
+    },
+
+    "require-dev": {
+        "dan-da/tester-php": "1.0.5"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "danda\\monero\\mnemonic\\": "src/"
+        }
+    }
+}
